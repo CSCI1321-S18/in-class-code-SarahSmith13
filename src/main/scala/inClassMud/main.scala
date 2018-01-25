@@ -1,0 +1,5 @@
+package inClassMud
+
+object main {
+  
+}

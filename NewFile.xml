@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rooms>
+	<room name = "Inn">
+		<description> You are in an inn. There is a man at the front desk that you should give money to. </description>
+		<exits>-1,1,-1,-1,-1,1 </exits>
+	</room>
+	
+	<room name = "Courtyard">
+		<description> You are in a large grassy courtyard. To your north there is an inn and to your west there is a well. </description>
+		<exits>1,-1,1,-1,1,-1</exits>
+	</room>
+
+	<room name = "Well">
+		<description> You are at a wishing well. On the ledge of the well you see a penny. Maybe you should pick it up. </description>
+		<item name = "penny">This penny is worth 1 cent </item>
+		<exits>-1,-1,-1,1,-1,-1</exits>
+	</room>
+</rooms>
